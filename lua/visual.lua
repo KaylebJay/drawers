@@ -194,7 +194,7 @@ core.register_entity("drawers:visual", {
 					to:saveMetaData()
 
 
-					core.sound_play("darwers_wrong", {
+					core.sound_play("drawers_wrong", {
 						pos = self.object:get_pos(),
 						max_hear_distance = 6,
 						gain = 2.0
